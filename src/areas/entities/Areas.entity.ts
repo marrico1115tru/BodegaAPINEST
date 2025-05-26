@@ -19,10 +19,6 @@ export class Areas {
 
   @Column("character varying", { name: "nombre_area", length: 100 })
   nombreArea: string;
-
-  @Column("integer", { name: "id_bodega", nullable: true })
-  idBodega: number | null;
-
   @Column("timestamp without time zone", {
     name: "fecha_creacion",
     nullable: true,
